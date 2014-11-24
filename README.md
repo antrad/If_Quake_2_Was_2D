@@ -56,7 +56,7 @@ When building the projects there will be hundreds of warnings, because I didn't 
 
 Bugs
 ----
-- Collision code is a disaster, but it works in most cases. On a high framerate (>100 FPS) there are collision problems on the edges on the sprites and when player goes from one platform to another.
+- Collision code is a disaster, but it works in most cases. On high framerates (>150 FPS) there are collision problems on the edges of the sprites and when player goes from one platform to another(player animations switch rapidly).
 - Explosion don't seem to work in co-op when the players are in different maps
 
 Updates v1.01
