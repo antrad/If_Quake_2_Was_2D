@@ -14,7 +14,7 @@ It's written in C++, uses DirectX for input and rendering, and FMOD for sound.
 Say what ?
 ==========
 
-A Quake 2D demo made in 2012 using MUG(My Unnamed Game) engine.
+A Quake 2D demo made in 2012 using MUG(My Unnamed Game) engine:
 http://antonior-software.blogspot.com/p/if-quake-2-was-2d.html
 
 How to ?
@@ -57,12 +57,12 @@ When building the projects there will be hundreds of warnings, because I didn't 
 Bugs
 ----
 - Collision code is a disaster, but it works in most cases. On high framerates (>150 FPS) there are collision problems on the edges of the sprites and when player goes from one platform to another(player animations switch rapidly).
-- Explosion don't seem to work in co-op when the players are in different maps
+- Explosions don't seem to work in co-op when the players are in different maps
 
 Updates v1.01
 -------------
 
-- Animations no longer speed up on framerates higher tha 1000FPS (GetDeltaFix())
+- Animations no longer speed up on framerates higher than 1000FPS (GetDeltaFix())
 - Biomech rocket does damage to the player
 - Added frame lock in options menu (that doesn't really work, turn on vsync instead)
 
