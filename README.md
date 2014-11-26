@@ -17,10 +17,13 @@ Say what ?
 A Quake 2D demo made in 2012 using MUG(My Unnamed Game) engine. You can find more info on my blog:
 http://antonior-software.blogspot.com/p/if-quake-2-was-2d.html
 
+
+Gameplay video:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=M_Vbn4ssY-M
 " target="_blank"><img src="http://img.youtube.com/vi/M_Vbn4ssY-M/0.jpg" 
 alt="Gameplay video" width="576" height="360" border="10" /></a>
 
+Screenshots:
 ![alt text](http://i.imgur.com/X60KY.jpg "random")
 
 ![alt text](http://i.imgur.com/U23hO.jpg "splitscreen co-op")
