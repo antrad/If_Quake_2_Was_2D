@@ -17,7 +17,15 @@ Say what ?
 A Quake 2D demo made in 2012 using MUG(My Unnamed Game) engine. You can find more info on my blog:
 http://antonior-software.blogspot.com/p/if-quake-2-was-2d.html
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=M_Vbn4ssY-M
+" target="_blank"><img src="http://img.youtube.com/vi/M_Vbn4ssY-M/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
 ![alt text](http://i.imgur.com/X60KY.jpg "test")
+
+![alt text](http://i.imgur.com/U23hO.jpg "test2")
+
+![alt text](http://i.imgur.com/U23hO.jpg "test2")
 
 How to ?
 ========
