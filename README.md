@@ -18,7 +18,7 @@ A Quake 2D demo made in 2012 using MUG(My Unnamed Game) engine. You can find mor
 http://antonior-software.blogspot.com/p/if-quake-2-was-2d.html
 
 
-Gameplay video:
+Gameplay video:  
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=M_Vbn4ssY-M
 " target="_blank"><img src="http://img.youtube.com/vi/M_Vbn4ssY-M/0.jpg" 
 alt="Gameplay video" width="576" height="360" border="10" /></a>
@@ -34,14 +34,14 @@ How to ?
 ========
 
 The repository includes the source code and VS 2008 projects for the engine and the game.
-The game assets can be downloaded from the link on my blog.
+The game assets can be downloaded from the link on my blog.  
 
-You need to have DirectX SDK installed. The include and library directories need to be set:
-VS 2008->tools->options->projects and solutions->vc++ directories:
-Include files:
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include
-Library files:
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86
+You need to have DirectX SDK installed. The include and library directories need to be set:  
+VS 2008->tools->options->projects and solutions->vc++ directories:  
+Include files:  
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include  
+Library files:  
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86  
 
 Open the projects and create solutions for both projects in the same folder as the project file.
 Then you need to build the engine as a static library. Be sure you set to build as "release". The engine.lib file should be located in the Release folder.
