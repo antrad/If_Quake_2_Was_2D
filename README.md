@@ -14,9 +14,10 @@ It's written in C++, uses DirectX for input and rendering, and FMOD for sound.
 Say what ?
 ==========
 
-A Quake 2D demo made in 2012 using MUG(My Unnamed Game) engine. You can find pictures and images on my blog:
+A Quake 2D demo made in 2012 using MUG(My Unnamed Game) engine. You can find more info on my blog:
 http://antonior-software.blogspot.com/p/if-quake-2-was-2d.html
 
+![alt text](http://i.imgur.com/X60KY.jpg "test")
 
 How to ?
 ========
