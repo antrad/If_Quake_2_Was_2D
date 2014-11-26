@@ -33,7 +33,7 @@ Screenshots:
 How to ?
 ========
 
-The repository includes the source code and VS 2008 projects for the engine and the game.
+The repository includes the source code and VS 2008 projects for the engine and the game.  
 The game assets can be downloaded from the link on my blog.  
 
 You need to have DirectX SDK installed. The include and library directories need to be set:  
@@ -43,39 +43,39 @@ C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include
 Library files:  
 C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86  
 
-Open the projects and create solutions for both projects in the same folder as the project file.
-Then you need to build the engine as a static library. Be sure you set to build as "release". The engine.lib file should be located in the Release folder.
+Open the projects and create solutions for both projects in the same folder as the project file.  
+Then you need to build the engine as a static library. Be sure you set to build as "release". The engine.lib file should be located in the Release folder.  
 
 Then link the game to engine and other libs and build as "release". The game.exe file should be in the Exe folder.
-Put the game assets there and run Game.exe file.
+Put the game assets there and run Game.exe file.  
 
-Game project:
-VS 2008->project->properties->configuration properties->linker->input->aditional dependencies:
-"..\Engine\Release\Engine.lib"
-"..\Engine\fmodex_vc.lib"
-d3d9.lib
-d3dx9.lib
-dxguid.lib
-winmm.lib
-dinput8.lib
-user32.lib
-gdi32.lib
+Game project:  
+VS 2008->project->properties->configuration properties->linker->input->aditional dependencies:  
+"..\Engine\Release\Engine.lib"  
+"..\Engine\fmodex_vc.lib"  
+d3d9.lib  
+d3dx9.lib  
+dxguid.lib  
+winmm.lib  
+dinput8.lib  
+user32.lib  
+gdi32.lib  
 
 Issues
 ======
 
-I can't say I'm proud with my code, but it works and the game itself is not bad at all, if I dare to say.
-When building the projects there will be hundreds of warnings, because I didn't bother cleaning up the code.
+I can't say I'm proud with my code, but it works and the game itself is not bad at all, if I dare to say.  
+When building the projects there will be hundreds of warnings, because I didn't bother cleaning up the code.  
 
 Bugs
 ----
-- Collision code is a disaster, but it works in most cases. On high framerates (>150 FPS) there are collision problems on the edges of the sprites and when player goes from one platform to another(player animations switch rapidly).
-- Explosions don't seem to work in co-op when the players are in different maps
+- Collision code is a disaster, but it works in most cases. On high framerates (>150 FPS) there are collision problems on the edges of the sprites and when player goes from one platform to another(player animations switch rapidly).  
+- Explosions don't seem to work in co-op when the players are in different maps  
 
 Updates v1.01
 -------------
 
-- Animations no longer speed up on framerates higher than 1000FPS (GetDeltaFix())
-- Biomech rocket does damage to the player
-- Added frame lock in options menu (that doesn't really work, turn on vsync instead)
+- Animations no longer speed up on framerates higher than 1000FPS (GetDeltaFix())  
+- Biomech rocket does damage to the player  
+- Added frame lock in options menu (that doesn't really work, turn on vsync instead)  
 
