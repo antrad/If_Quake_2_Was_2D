@@ -30,13 +30,13 @@ Screenshots:
 
 ![alt text](http://i.imgur.com/r5e9V.jpg "map editor")
 
-How to ?
+How to build ?
 ========
 
 The repository includes the source code and VS 2008 projects for the engine and the game.  
 The game assets can be downloaded from the link on my blog.  
 
-You need to have DirectX SDK installed. The include and library directories need to be set:  
+You need to have DirectX SDK installed. In Visual Studio the include and library directories need to be set:  
 VS 2008->tools->options->projects and solutions->vc++ directories:  
 Include files:  
 C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include  
@@ -46,10 +46,10 @@ C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86
 Open the projects and create solutions for both projects in the same folder as the project file.  
 Then you need to build the engine as a static library. Be sure you set to build as "release". The engine.lib file should be located in the Release folder.  
 
-Then link the game to engine and other libs and build as "release". The game.exe file should be in the Exe folder.
+Then link the game project to engine and other libs and build as "release". The game.exe file should be in the Exe folder.
 Put the game assets there and run Game.exe file.  
 
-Game project:  
+Game project dependencies:  
 VS 2008->project->properties->configuration properties->linker->input->aditional dependencies:  
 "..\Engine\Release\Engine.lib"  
 "..\Engine\fmodex_vc.lib"  
