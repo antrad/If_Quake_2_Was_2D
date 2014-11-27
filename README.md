@@ -72,7 +72,7 @@ Bugs
 - Collision code is a disaster, but it works in most cases. On high framerates (>150 FPS) there are collision problems on the edges of the sprites and when player goes from one platform to another(player animations switch rapidly).  
 - Explosions don't seem to work in co-op when the players are in different maps  
 
-Updates v1.01
+Updates v1.0.1
 -------------
 
 - Animations no longer speed up on framerates higher than 1000FPS (GetDeltaFix())  
