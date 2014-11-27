@@ -273,7 +273,7 @@ void ShowConsole()
 	text << "AUTHOR  [" << "Antonio Radojkovic" << "]";
 	out.push_back(text.str());text.str("");
 
-	text << "ENGINE [" << "MUGEe v0.1" << "]";
+	text << "ENGINE [" << "MUG" << "]";
 	out.push_back(text.str());text.str("");
 
 	text << "SCREEN RESOLUTION  [" << g_engine->getScreenWidth() << "x" << g_engine->getScreenHeight() << "]";
