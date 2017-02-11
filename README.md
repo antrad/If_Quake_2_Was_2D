@@ -1,24 +1,16 @@
 If Quake 2 Was 2D
 =================
 
-By AntonioR, for educational and non-commercial use only, as is - no warranty.
-
-I share this code in hope it will help someone learn a thing or two, even if it's how not to write C++ code :P
+I share this code in hope it will help someone learn a thing or two, even if it's how NOT to write C++ code :P
 I have made a lot of mistakes working on this project and I have learned a lot. This project is not a representation of how I structure my code today, and code-wise it has nothing to do with my Broken Mug engine project.
 
-This project is based on a modified engine from the book Advanced 2D Game Development (2008) by J.S. Harbour:
+This project is based on a heavily modified engine from the book Advanced 2D Game Development (2008) by J.S. Harbour:
 http://www.amazon.com/Advanced-Game-Development-Jonathan-Harbour/dp/1598633422
 
-It's written in C++, uses DirectX for input and rendering, and FMOD for sound.
-
-Say what ?
-==========
-
-A Quake 2D demo made in 2012 using MUG(My Unnamed Game) engine. You can find more info on my blog:
+It's written in C++, uses DirectX for input and rendering, and FMOD for sound. You can find more info about this project on my blog:
 http://antonior-software.blogspot.com/p/if-quake-2-was-2d.html
 
-
-Gameplay video:  
+Gameplay video (click to watch):  
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=M_Vbn4ssY-M
 " target="_blank"><img src="http://img.youtube.com/vi/M_Vbn4ssY-M/0.jpg" 
 alt="Gameplay video" width="576" height="360" border="10" /></a>
