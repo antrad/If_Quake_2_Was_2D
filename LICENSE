@@ -1,0 +1,29 @@
+If Quake 2 Was 2D - licensing information
+=======================================
+
+My Unnamed Game(MUG) engine is a heavily modified engine from the book Advanced 2D Game Development (2008) by J.S. Harbour.
+
+There are only few files that contain mostly original code from the Advanced 2D Engine located in the Engine folder:
+Advanced2D.h,Advanced2D.cpp
+Entity.h,Entity.cpp
+Math.h,Math.cpp
+Sprite.h,Sprite.cpp
+Texture.h,Texture.cpp
+Timer.h,Timer.cpp
+Vector3.h,Vector3.cpp
+winmain.h,winmain.cpp
+I'm not sure about these 4 anymore, they are probably a mix, but everything else in the folder is my code:
+AR_Direct3D.h,AR_Direct3D.cpp
+AR_DirectInput.h,Ar_DirectInput.cpp
+
+Mr. Harbour stated the following about the license:
+"The source code is protected under copyright but that only applies to re-publishing the sources in another book or article or web site without citing the reference."
+reference:http://jharbour.com/forum/index.php?topic=1249.0
+
+There are a bunch of FMOD files left in the repository in the engine folder, copyright of Firelight Technologies:
+fmod.h,fmod.hpp,fmod_codec.h,fmod_dsp.h,fmod_errors.h,fmod_output.h
+Check www.fmod.org for more info about their software licensing.
+
+So, as for my code... DO WHAT THE F*** YOU WANT TO !
+Copyright (c) 2016 Antonio Radojkovic <antonior.software@gmail.com>
+Licensed under the WTFPL. Please read LICENSE.WTFPL for details.
